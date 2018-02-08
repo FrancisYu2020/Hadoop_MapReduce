@@ -1,2 +1,2 @@
-# MP2_java
-The template folder for Java version for MP2 (SP2018)
+# MP2_java_templates
+template folder for java version for MP2 (SP2018)
