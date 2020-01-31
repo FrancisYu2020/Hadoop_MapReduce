@@ -1,2 +1,2 @@
 # MP2_py
-The template folder for Python files for MP2 (SP2018)
+The template folder for Python files for MP2 (SP2020)
