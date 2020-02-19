@@ -8,3 +8,4 @@ for line in sys.stdin:
 
 
 #TODO
+# print('%s\t%s' % (  ,  )) print as final output

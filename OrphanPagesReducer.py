@@ -9,3 +9,4 @@ for line in sys.stdin:
   # TODO
 
 #TODO
+# print('%s\t%s' % (  ,  )) print as final output
