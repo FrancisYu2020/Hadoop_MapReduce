@@ -87,6 +87,7 @@ public class TitleCount extends Configured implements Tool {
         @Override
         public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
             //TODO
+            //context.write(<Text>, <IntWritable>); // pass this output to reducer
         }
     }
 
@@ -94,6 +95,7 @@ public class TitleCount extends Configured implements Tool {
         @Override
         public void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
             //TODO
+            //context.write(<Text>, <NullWritable>); // print as final output
         }
     }
 }

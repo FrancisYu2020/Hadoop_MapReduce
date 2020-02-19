@@ -48,6 +48,7 @@ public class OrphanPages extends Configured implements Tool {
         @Override
         public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
             //TODO
+            //context.write(<IntWritable>, <IntWritable>); // pass this output to reducer
         }
     }
 
@@ -55,6 +56,7 @@ public class OrphanPages extends Configured implements Tool {
         @Override
         public void reduce(IntWritable key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
             //TODO
+            //context.write(<IntWritable>, <NullWritable>); // print as final output
         }
     }
 }
