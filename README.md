@@ -1,1 +1,4 @@
-# 21Spring_MP4_java_template
+# Java template for MP4 Hadoop MapReduce
+
+## Log
+Last updated in Mar 2021, by Yigong Hu (yigongh2@illinois.edu)
