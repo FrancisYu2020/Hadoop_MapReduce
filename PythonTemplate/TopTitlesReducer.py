@@ -6,7 +6,9 @@ max_word = []
 # input comes from STDIN
 for line in sys.stdin:
     # TODO
-	count, word = line.split('\t', 1)
+	_, pair = line.split('\t', 1)
+	count, word = pair.split(',')
+	# count, word = line.split('\t', 1)
 	try:
 		count = int(count)
 	except:

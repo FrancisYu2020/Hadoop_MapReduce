@@ -11,12 +11,12 @@ delimitersPath = sys.argv[2]
 # TODO
 with open(stopWordsPath) as f:
     # TODO
-    stopWords = f.read().split('\n')
+    stopWords = set(f.read().split('\n'))
 
 #TODO 
 with open(delimitersPath) as f:
     # TODO
-    delimiters = f.read()
+    delimiters = set(f.read())
 
 for line in sys.stdin:
   
