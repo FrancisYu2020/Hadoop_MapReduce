@@ -8,13 +8,14 @@ import sys
 
 for line in sys.stdin:
 
-       #TODO
+    #TODO
 	word, count = line.split('\t', 1)
-	try:
-		count = int(count)
-	except:
-		continue
+	# try:
+	# 	count = int(count)
+	# except:
+	# 	continue
+	count = int(count)
 
-	print('%s\t%s' % (count,word))
+	print('%s\t%s,%s' % ('None',count,word))
 #TODO
 # print('%s\t%s' % (count,  )) 

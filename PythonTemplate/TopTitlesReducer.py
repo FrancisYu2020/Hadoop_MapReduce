@@ -6,6 +6,7 @@ max_word = []
 # input comes from STDIN
 for line in sys.stdin:
     # TODO
+	line = line.strip()
 	_, pair = line.split('\t', 1)
 	count, word = pair.split(',')
 	# count, word = line.split('\t', 1)
@@ -13,7 +14,7 @@ for line in sys.stdin:
 		count = int(count)
 	except:
 		continue
-	if len(max_word) < 5:
+	if len(max_word) < 10:
 		max_word.append((word, count))
 	else:
 		min_count, min_pos = float('inf'), -1
